@@ -1,0 +1,12 @@
+{
+  "model": "SupervisedSNN 784-512-10 LIF",
+  "dataset": "MNIST",
+  "num_steps_snn": 25,
+  "num_epochs_snn": 10,
+  "hidden_size_snn": 512,
+  "lr_snn": 0.001,
+  "alpha_reg": 0.0001,
+  "post_training_epochs": 3,
+  "post_training_eta_gentle": 1e-05,
+  "post_training_eta_strong": 0.0001
+}
